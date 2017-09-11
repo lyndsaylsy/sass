@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,iBAAM;EACJ,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,KAAK",
-"sources": ["../scss/_blue-theme.scss"],
-"names": [],
-"file": "theme.css"
-}
