@@ -1,0 +1,11 @@
+body{
+  font-size: 1em;
+}
+::-moz-selection {
+  background: $color1;
+  text-shadow: none;
+}
+::selection {
+  background: $color1;
+  text-shadow: none;
+}
