@@ -20,3 +20,9 @@
 	}
   }
 }
+.chapter-summary {
+  border-bottom: 2px dotted;
+  &:last-child {
+	border: none;
+  }
+}
