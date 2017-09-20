@@ -1,0 +1,35 @@
+/*.box {
+  padding :2em;
+  color:$color10;
+  background-color: $color11;
+}
+.warning-box {
+  @extend .box;
+  border: 2px dotted $color1;
+}
+.success-box {
+  @extend .box;
+  border: 2px dotted $color4;
+}
+.info-box {
+  @extend .box;
+  border: 2px dotted $color7;
+}*/
+
+%box {
+  padding: 2em;
+  color: $color10;
+  background-color: $color11;
+}
+.warning-box   {
+  @extend %box;
+  border: 2px dotted $color1;
+}
+.success-box {
+  @extend %box;
+  border: 2px dotted $color4;
+}
+.info-box {
+  @extend %box;
+  border: 2px dotted $color7;
+}
